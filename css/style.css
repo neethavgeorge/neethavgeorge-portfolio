@@ -1,0 +1,89 @@
+/* CSS - style.css */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #212529;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.progress {
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin-bottom: 0.5rem;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}

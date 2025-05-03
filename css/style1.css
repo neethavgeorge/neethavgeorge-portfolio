@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem 0;
+  }
